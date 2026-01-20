@@ -1,4 +1,3 @@
-
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -8,12 +7,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: '#0f172a',
-        secondary: '#1e293b',
-        accent: '#7c3aed',
+        black: '#0B0B0B',
+        gold: '#D4AF37',
+        'gold-soft': '#E6C766',
+        gray: '#B5B5B5',
       },
     },
   },
   plugins: [],
 }
-  
